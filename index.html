@@ -73,5 +73,25 @@
       </div>
     </footer>
   </main>
+  <script>
+      function addCloudflareAnalytics(siteToken) {
+        const script = document.createElement("script");
+        script.defer = true;
+        script.dataset.cfBeacon = `{"token": "${siteToken}"}`;
+        script.src = "https://static.cloudflareinsights.com/beacon.min.js";
+        document.head.appendChild(script);
+        console.log(
+          `Cloudflare Web Analytics für GitHub Pages (Token: ${siteToken}) hinzugefügt.`
+        );
+      }
+
+      const currentHostname = window.location.hostname;
+      const githubPagesHostname = "niiv3au.github.io";
+      const githubPagesAnalyticsToken = "e759315bc30b49adb382b087660536e2";
+
+      if (currentHostname === githubPagesHostname) {
+        addCloudflareAnalytics(githubPagesAnalyticsToken);
+      }
+  </script>
 </body>
 </html>
