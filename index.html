@@ -4,7 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NV3 Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Discover the portfolio of NiiV3AU (NV3) with projects in Python, JavaScript, web development and more."
+    />
+    <meta
+      name="keywords"
+      content="NiiV3AU, NV3, Portfolio, Web Developer, Python, JavaScript, Frontend, Backend"
+    />
+    <meta property="og:title" content="NiiV3AU (NV3) - Portfolio" />
+    <meta
+      property="og:description"
+      content="Discover my projects and skills in web development and python."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://niiv3au.github.io/" />
+    <meta
+      property="og:image"
+      content="https://niiv3au.github.io/assets/img/portfolio_preview.png"
+    />
+    <meta property="og:image:alt" content="NV3 portfolio preview." />
+    <meta property="og:site_name" content="NV3 Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@NiiV3AU" />
+    <meta name="twitter:title" content="NiiV3AU (NV3) - Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Discover my projects and skills in web development and python."
+    />
+    <meta
+      name="twitter:image"
+      content="https://niiv3au.github.io/assets/img/portfolio_preview.png"
+    />
+    <link rel="canonical" href="https://niiv3au.github.io/" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
   <!-- Navbar -->
@@ -12,13 +46,15 @@
     <header>
       <nav class="navbar">
         <ul>
-          <p class="transparent-text">View</p>
+          <li class="nav-filler"><span class="transparent-text">View</span></li>
           <li><a href="#tech-stack" class="nav-button">Tech Stack</a></li>
-          <p class="transparent-text">&amp;</p>
+          <li class="nav-filler">
+            <span class="transparent-text">&amp;</span>
+          </li>
           <li><a href="#projects" class="nav-button">Projects</a></li>
-          <p class="transparent-text">or</p>
+          <li class="nav-filler"><span class="transparent-text">or</span></li>
           <li><a href="#contact" class="nav-button">Contact</a></li>
-          <p class="transparent-text">me</p>
+          <li class="nav-filler"><span class="transparent-text">me</span></li>
         </ul>
       </nav>
     </header>
@@ -29,7 +65,7 @@
       </div>
       <div id="hero" class="section">
         <h1>Welcome to my Portfolio!</h1>
-        <h1>I'm NiiV3AU or NV3 for short.</h1>
+        <h2>I'm NiiV3AU or NV3 for short.</h2>
         <p>Discover my Projects ↴</p>
         <a href="#projects" class="btn">Check them out</a>
       </div>
@@ -166,7 +202,11 @@
             <p>Privacy-focused, powerful, and customizable.</p>
           </div>
           <div class="card-footer">
-            <a href="https://niiv3au.github.io/GetOllamaTor" class="btn"
+            <a
+              href="https://niiv3au.github.io/GetOllamaTor"
+              target="_blank"
+              rel="noopener"
+              class="btn"
               >Learn More</a
             >
           </div>
@@ -180,7 +220,11 @@
             </p>
           </div>
           <div class="card-footer">
-            <a href="https://niiv3au.github.io/YimMenuUpdater" class="btn"
+            <a
+              href="https://niiv3au.github.io/YimMenuUpdater"
+              target="_blank"
+              rel="noopener"
+              class="btn"
               >Learn More</a
             >
           </div>
@@ -191,7 +235,12 @@
             Try your luck and search through my repos...
           </div>
           <div class="card-footer">
-            <a href="https://github.com/NiiV3AU" class="btn secondary-btn">
+            <a
+              href="https://github.com/NiiV3AU"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn secondary-btn"
+            >
               <img
                 src="./assets/img/github.svg"
                 class="icon"
@@ -212,8 +261,7 @@
               href="mailto:nv3.gigahertz994@silomails.com"
               class="btn"
               aria-label="Send e-mail"
-            >
-              <img
+              ><img
                 src="./assets/img/mail.svg"
                 class="icon icon-email-default"
                 alt="email icon"
@@ -223,15 +271,15 @@
                 src="./assets/img/mail-out.svg"
                 class="icon icon-email-hover"
                 alt="email icon outgoing"
-                loading="lazy"
+                loading="eager"
               />
               <span class="button-text">Send e-mail</span>
             </a>
             <a
               class="btn secondary-btn copy-btn"
               data-clipboard-text="nv3.gigahertz994@silomails.com"
-            >
-              <img
+              aria-label="copy e-mail"
+              ><img
                 src="./assets/img/copy.svg"
                 class="icon"
                 alt="copy icon"
@@ -241,8 +289,13 @@
             </a>
           </div>
           <div>
-            <a href="https://discord.com/app" class="btn">
-              <img
+            <a
+              href="https://discord.com/app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn"
+              aria-label="open discord"
+              ><img
                 src="./assets/img/discord.svg"
                 class="icon icon-discord"
                 alt="discord icon"
@@ -250,7 +303,10 @@
               />
               <span class="button-text"> Send message</span>
             </a>
-            <a class="btn secondary-btn copy-btn" data-clipboard-text="niveau."
+            <a
+              class="btn secondary-btn copy-btn"
+              data-clipboard-text="niveau."
+              aria-label="copy discord username"
               ><img
                 src="./assets/img/copy.svg"
                 class="icon"
@@ -262,9 +318,32 @@
           </div>
           <p class="badge">&copy; 2025 NiiV3AU aka NV3. All rights reserved.</p>
           <p class="badge">
-            Icons: <a href="https://iconoir.com" class="links">iconoir</a>.
-            Fonts: <a href="#" class="links">JetBrains Mono</a> &
-            <a href="#" class="links">Manrope</a>.
+            Icons:
+            <a
+              href="https://iconoir.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              aria-label="iconoir.com (icon source)"
+              >iconoir</a
+            >. Fonts:
+            <a
+              href="https://www.jetbrains.com/lp/mono/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              aria-label="jetbrains.com (font source 1)"
+              >JetBrains Mono</a
+            >
+            &
+            <a
+              href="https://fonts.google.com/specimen/Manrope"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="links"
+              aria-label="fonts.google.com (font source 2)"
+              >Manrope</a
+            >.
           </p>
         </div>
       </footer>
