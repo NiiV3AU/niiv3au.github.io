@@ -1,10 +1,10 @@
 # My Portfolio...
-|[View it in Action](https://niiv3au.github.io)|
+|[View it in Action](https://niveau.pages.dev/)|
 |--------------------------------------------| 
 
 # Credits
-* Godray Animation inspired by this [Codepen from charmUI](https://codepen.io/mrcrabsyeah/pen/OJqEJrz)
-* Fonts: JetBrains Mono & Manrope
-* Icons: [iconoir](https://iconoir.com) 
+* Fonts: [Syne](https://gitlab.com/bonjour-monde/fonderie/syne-typeface), [Lexend](https://www.lexend.com/), [Space Grotesk](https://floriankarsten.github.io/space-grotesk/)
+* Icons: [Phosphor](https://phosphoricons.com/)
+* SVG-Animation: [GSAP](https://gsap.com/)
 ---
 © NiiV3AU :)
